@@ -1,0 +1,72 @@
+@font-face {
+    src: url(../fonts/DidactGothic-Regular.ttf);
+    font-family: "Didact Gothic";
+}
+@font-face {
+    src: url(../fonts/PTSerifCaption-Regular.ttf);
+    font-family: "SerifCaption";
+}
+@font-face {
+    src: url(../fonts/PTSerifCaption-Italic.ttf);
+    font-family: "SerifCaption_italic";
+}
+body {
+    font-family: "Didact Gothic";
+    margin: 0;
+
+}
+main, footer {
+    width: 70%;
+    margin: 0 auto;
+}
+nav {
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0;
+    text-align: center;
+    /* margin: 0 auto; */
+    background-color: mintcream ;
+    border-bottom: 3px solid gray;
+}
+a {
+    margin-left: 15px;
+    color: peru;
+    text-decoration: none;
+    
+}
+a:hover {
+    transition: 0.3s;
+    color: green;
+    border-bottom: 1px solid green;
+}
+.image, h1 {
+    text-align: center;
+    color: peru;
+    font-family: 'SerifCaption', serif;
+}
+.image {
+    padding: 20px;
+    background-color: beige;
+    text-align: center;
+}
+img {
+    border: 1px solid gray;
+    text-align: center;
+}
+h2 {
+    border-left: solid peru 8px;
+    padding-left: 15px;
+    font-family: "SerifCaption_italic";
+}
+span {
+    font-weight: bold;
+    text-decoration: underline;
+    color: peru;
+}
+.contact_icon {
+    margin-right: 10px;
+    border: none;
+}
